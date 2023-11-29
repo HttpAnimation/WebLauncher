@@ -14,6 +14,14 @@ python3 -c "$(curl -fsSL https://raw.githubusercontent.com/HttpAnimation/WebLaun
 
 This command fetches the script directly from the GitHub repository and executes it using Python.
 
+### Options
+```
+-p
+-h
+```
+-p will have the script ask for place to but the .desktop file.
+-h will put the .desktop file in the same place as the terminal is opened to.
+
 ### Follow the Prompts
 
 1. Enter the URL: Provide the URL you want to open.
