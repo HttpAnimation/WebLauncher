@@ -17,7 +17,7 @@ Type=Application
 
 def main():
     url = input("Enter the URL: ")
-    name = input("Enter the name for the desktop icon: ")
+    name = input("Enter the name for the desktop icon, this is not a photo: ")
 
     create_desktop_file(url, name)
 
